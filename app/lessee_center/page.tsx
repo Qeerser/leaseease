@@ -248,8 +248,8 @@ export default function PropertyPage() {
                         >
                             <div className="w-[382px] h-[160px] rounded-md">
                                 <img
-                                    src={property.image}
-                                    alt="Property Image"
+                                    src={property.image_url}
+                                    alt="Property image_url"
                                     className="w-full h-full rounded-md object-cover"
                                 />
                             </div>
